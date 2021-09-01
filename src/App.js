@@ -1,17 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
-import 
+import Home from './components/home.jsx';
 
 function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>apple</p>
-      </header>
+       
+       <Home    
+        />
+        
     </div>
   );
-}
+};
 
 export default App;
