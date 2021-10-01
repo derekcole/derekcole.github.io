@@ -8,39 +8,39 @@ const NavBar = () => {
     return (
                 <Navbar className='fixed-top navbar-white'>
             <Navbar.Brand className='brand' href={'/#home'}>
-                {`<${mainBody.firstName} />`}
+                {`${mainBody.firstName}`}
             </Navbar.Brand>
             <Nav className='mr-auto'>
                 <Nav.Link
                     className='nav-link lead'
                     href={'/#aboutme'}
                 >
-                    About
+                    .About()
                 </Nav.Link>
                 <Nav.Link
                     className='nav-link lead'
                     href={'/#experiences'}
                 >
-                    Experiences
+                    .Experiences()
                 </Nav.Link>
                 <Nav.Link
                     className='nav-link lead'
                     href={'/#projects'}
                 >
-                    Projects
+                    .Projects()
                 </Nav.Link>
                 <Nav.Link
                     className='nav-link lead'
                     href={'/#skills'}
                 >
-                    Skills
+                    .Skills()
                 </Nav.Link>
                 <Nav.Link
                     className='nav-link lead'
                     href={aboutMe.resume}
                     target='blank'
                 >
-                    Resume
+                    .Resume()
                 </Nav.Link>
             </Nav>
         </Navbar>

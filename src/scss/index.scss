@@ -1,0 +1,19 @@
+html {
+    font-size: 22px;
+    @media (min-width: 768px) {
+      font-size: 22px;
+    }
+    scroll-behavior: smooth;
+  }
+
+  .navbar-white {
+    background-color: rgba(162, 97, 248, 0.81);
+    text-align: center;
+    transition: background-color 0.2s;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .fixed-top {
+      text-align: center;
+  }
