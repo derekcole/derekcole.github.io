@@ -1,6 +1,7 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
 import Jumbotron from "react-bootstrap/Jumbotron";
+import profilePicture from "../resources/derekcole.jpg";
 
 const about = ({ heading, description, resume }) => {
 
@@ -12,7 +13,7 @@ const about = ({ heading, description, resume }) => {
                 <div className="col-5 d-none d-lg-block align-self-center">
                     <img 
                         className="border border-secondary rounded-circle" 
-                        //src={profilePicture}
+                        src={profilePicture}
                         alt="profilepicture"
                         width={365}
                         height={365}/>
@@ -22,16 +23,7 @@ const about = ({ heading, description, resume }) => {
                     <h2 className="display-4 mb-5 text-center">{heading}</h2>
                     <p className="lead text-center">{description}</p>
                     <p className="lead text-center">
-                        <a
-                            className="btn btn-outline-dark btn-lg"
-                            href={resume}
-                            target="_blank"
-                            rel="noreferrer noopener"
-                            role="button"
-                            aria-label="Resume/CV"
-                        >
-                            Resume
-                        </a>
+                        
                     </p>
                 </div>
             </div>
