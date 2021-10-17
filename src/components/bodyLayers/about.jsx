@@ -15,8 +15,8 @@ const about = ({ heading, description, resume }) => {
                         className="border border-secondary rounded-circle" 
                         src={profilePicture}
                         alt="profilepicture"
-                        width={365}
-                        height={365}/>
+                        width={100}
+                        height={100}/>
                 </div>
 
                 <div className={`col-lg`}>

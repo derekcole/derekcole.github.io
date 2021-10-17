@@ -5,7 +5,7 @@ import Jumbotron from "react-bootstrap/Jumbotron";
 const MainBody = () => {
     return (
         
-                <p>hello</p>
+                <p>Main</p>
     );
 };
   
