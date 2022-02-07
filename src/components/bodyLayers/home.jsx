@@ -3,13 +3,15 @@ import React from 'react';
 import {
   mainBody,
   aboutMe,
-  footer
+  footer,
+  services
 } from './config';
 
-import MainBody from './bodyLayers/Mainbody';
-import About from './bodyLayers/about';
-import NavBar from './bodyLayers/navbar';
-import Footer from './bodyLayers/footer';
+import Booking from './Mainbody';
+import About from './about';
+import NavBar from './navbar';
+import Footer from './footer';
+import Services from './services'
 
 const Home = () => {
     return (
@@ -17,12 +19,15 @@ const Home = () => {
 
         <NavBar
         />
-        
-        <MainBody    
-        
-        />
 
         <About
+        description={aboutMe.description}
+        />
+        
+        <Booking    
+        />
+
+        <Services
         />
 
         <Footer

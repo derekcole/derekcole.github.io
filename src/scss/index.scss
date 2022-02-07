@@ -6,14 +6,40 @@ html {
     scroll-behavior: smooth;
   }
 
-  .navbar-white {
-    background-color: rgba(33, 185, 140, 0.81);
-    text-align: center;
-    transition: background-color 0.2s;
-    padding-left: 16px;
-    padding-right: 16px;
+
+  .p-2b{
+    background-color: rgba(65, 189, 127, 0.81);
+    position: relative;
+    border:1px solid black;
+
   }
 
-  .fixed-top {
-      text-align: center;
+  #bookings{
+    background-color: rgba(208, 218, 213, 0.81);
+    border:1px solid black;
+  }
+
+  #about{
+    border:1px solid black;
+    border-bottom: 0px;
+  }
+
+  #services{
+    border:1px solid black;
+    border-top: 0px;
+  }
+
+
+  .sticky-nav {
+    position: sticky;
+    top: 0;   
+    background-color: transparent;
+    text-align: center;
+    padding-left: 16px;
+    padding-right: 16px;
+
+  }
+
+  .p-2{
+    background-color: rgba(208, 218, 213, 0.81);
   }

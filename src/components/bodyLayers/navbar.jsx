@@ -6,42 +6,31 @@ import Jumbotron from "react-bootstrap/Jumbotron";
 
 const NavBar = () => {
     return (
-                <Navbar className='fixed-top navbar-white'>
+
+                <Navbar className='sticky-nav'>
             <Navbar.Brand className='brand' href={'/#home'}>
-                {`${mainBody.firstName}`}
+                {`${mainBody.Company}`}
             </Navbar.Brand>
             <Nav className='mr-auto'>
-                <Nav.Link
+            <Nav.Link
                     className='nav-link lead'
-                    href={'/#aboutme'}
+                    href={'/#about'}
                 >
-                    .About()
+                    About
                 </Nav.Link>
                 <Nav.Link
                     className='nav-link lead'
-                    href={'/#experiences'}
+                    href={'/#bookings'}
                 >
-                    .Experiences()
+                    Bookings
                 </Nav.Link>
                 <Nav.Link
                     className='nav-link lead'
-                    href={'/#projects'}
+                    href={'/#services'}
                 >
-                    .Projects()
+                    Services
                 </Nav.Link>
-                <Nav.Link
-                    className='nav-link lead'
-                    href={'/#skills'}
-                >
-                    .Skills()
-                </Nav.Link>
-                <Nav.Link
-                    className='nav-link lead'
-                    href={aboutMe.resume}
-                    target='blank'
-                >
-                    .Resume()
-                </Nav.Link>
+                
             </Nav>
         </Navbar>
     )
