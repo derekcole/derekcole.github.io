@@ -1,7 +1,7 @@
 import React from 'react'
 import './footer.css'
 
-function footer() {
+const footer = () =>  {
   return (
     <section id="footer">footer</section>
   )
