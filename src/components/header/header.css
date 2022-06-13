@@ -4,6 +4,16 @@ header {
     overflow: hidden;
 }
 
+#name {
+    letter-spacing: 6px;
+    text-shadow: red 0 0, cyan 0 0;
+    transition: text-shadow 200ms;
+}
+
+#name:hover {
+    text-shadow: red -6px 0, cyan 6px 0;
+}
+
 .header__container {
     text-align: center;
     height: 100%;
