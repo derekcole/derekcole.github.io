@@ -23,7 +23,26 @@ const about = () => {
           <small> 3+ Years Working </small>
 
         </article>
+
+        <article className="about__card">
+
+          <h5> Projects </h5>
+          <small> 3+ Years Working </small>
+
+        </article>
+
+        <article className="about__card">
+
+          <h5> Clients </h5>
+          <small> 3+ Years Working </small>
+
+        </article>
       </div> 
+
+      <p>
+        Yeet from stonehill oh yeah
+      </p>
+      <a href="#contact" className='btn btn-primary'>Contact</a>'
     </div>
     
     </section>
